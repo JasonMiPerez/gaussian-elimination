@@ -1,0 +1,46 @@
+# --- C/C++ build artifacts ---
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dylib
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+
+# Common build directories
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+/cmake-build-*/
+
+# If you build a local binary named 'gauss'
+/gauss
+/gauss.exe
+
+# Compilers / tooling
+*.dep
+*.d
+*.mod
+*.pch
+
+# IDE/editor junk
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & misc
+*.log
+*.cache
