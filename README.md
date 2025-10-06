@@ -5,10 +5,10 @@ m times n systems. It can print **intermediate row operations**, compute **ranks
 and print the solution(s) to the system of equations (prints solution(s) if it's a **unique solution** or there are **infinitely many solutions**, otherwise, prints that it has **no solution**).
 
 ## Features
-- Works with **rectangular systems** \(A \in \mathbb{R}^{m \times n}\): under-, well-, and over-determined
+- Works with **rectangular systems** (A is m × n): under-, well-, and over-determined
 - **Forward elimination** → Row Echelon Form (REF)
 - **Back substitution** when applicable
-- **Rank computation**: `rank(A)` and `rank([A|b])` to test consistency
+- **Rank computation**: `rank([A|b])` to test consistency
 - **Intermediate steps**: print each row swap/scale/combination
 - Detects **no solution** (inconsistent), **unique solution**, or **infinitely many solutions**
 - Print solution(s)
@@ -35,13 +35,17 @@ The program expects:
 2. The **m × n** coefficient matrix **A** (row by row)  
 3. The **m × 1** vector **b**
 
-It then performs Gaussian elimination. Then it allows the user to either print the intermediate computations, the rank of [A|b], or the solution(s) to the system of equations (prints that there is no solutions if there is none).
+It then performs Gaussian elimination and can:
+- Print intermediate computations
+- Show the rank of [A|b]
+- Output the solution(s) (or state that no solution exists)
+
 
 ## Project Structure
 - `Gaussian-Elimination.cpp` — Main program
 - `README.md` — Project overview
-- `requirements.txt` — Dependencies/notes
 - `LICENSE` — MIT License
+- `.gitignore` — Ignore build artifacts
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
