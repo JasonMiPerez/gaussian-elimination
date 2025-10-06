@@ -7,7 +7,6 @@ and print the solution(s) to the system of equations (prints solution(s) if it's
 ## Features
 - Works with **rectangular systems** (A is m × n): under-, well-, and over-determined
 - **Forward elimination** → Row Echelon Form (REF)
-- **Back substitution** when applicable
 - **Rank computation**: `rank([A|b])` to test consistency
 - **Intermediate steps**: print each row swap/scale/combination
 - Detects **no solution** (inconsistent), **unique solution**, or **infinitely many solutions**
