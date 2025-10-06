@@ -38,12 +38,6 @@ The program expects:
 It then performs Gaussian elimination. Then it allows the user to either print the intermediate computations, the rank of [A|b], or the solution(s) to the system of equations (prints that there is no solutions if there is none).
 
 ## Project Structure
-Gaussian-Elimination.cpp # Main program
-README.md # Project overview
-LICENSE # MIT License
-.gitignore # Ignore build artifacts
-
-## 📂 Project Structure
 - `Gaussian-Elimination.cpp` — Main program
 - `README.md` — Project overview
 - `requirements.txt` — Dependencies/notes
